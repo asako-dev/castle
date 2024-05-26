@@ -627,15 +627,16 @@ footer {
     text-align: center;
 }
 
-
-
-/***dlボタン(SP)ここから***/
-#dl_sp {
+  /***dlボタン（SP）ここから***/
+  #dl_sp {
+    opacity: 0;
     position: fixed;
     bottom: 0;
     z-index: 970;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
+    transition-duration: .3s;
+    transform: translate(0, 100px);
 
     ul {
         display: flex;
@@ -654,9 +655,14 @@ footer {
             }
         }
     }
+    &.is-scrollIn{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
 }
 
-/***dlボタン(SP)ここまで***/
+
+/***dlボタン（SP）ここまで***/
 
 /***dlボタン（PC）ここから***/
 #dl_pc {
@@ -750,5 +756,4 @@ footer {
 }
 
 /***dlボタン（PC）ここまで***/
-
 /***コンテンツここまで***/
