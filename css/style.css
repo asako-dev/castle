@@ -523,7 +523,6 @@ img {
   }
 }
 .result p {
-  font-size: 1.4rem;
   line-height: 2;
   padding-bottom: 2rem;
 }
@@ -547,14 +546,12 @@ img {
   }
 }
 .attention p {
-  font-size: 1.4rem;
   padding-bottom: 1rem;
 }
 .attention ol {
   padding-left: 1em;
 }
 .attention ol li {
-  font-size: 1.4rem;
   padding-bottom: 1rem;
   line-height: 1.5;
 }
@@ -567,15 +564,10 @@ img {
     padding: 130px 0 0;
   }
 }
-.details p {
-  font-size: 1.4rem;
-  padding-bottom: 1rem;
-}
 .details ul {
   padding-left: 1em;
 }
 .details ul li {
-  font-size: 1.4rem;
   padding-bottom: 1rem;
   line-height: 1.5;
 }

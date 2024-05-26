@@ -483,7 +483,6 @@ img {
     }
 
     p {
-        font-size: 1.4rem;
         line-height: 2;
         padding-bottom: 2rem;
     }
@@ -508,7 +507,6 @@ img {
     }
 
     p {
-        font-size: 1.4rem;
         padding-bottom: 1rem;
     }
 
@@ -516,7 +514,6 @@ img {
         padding-left: 1em;
 
         li {
-            font-size: 1.4rem;
             padding-bottom: 1rem;
             line-height: 1.5;
 
@@ -528,15 +525,10 @@ img {
     @include pc{
         padding: 130px 0 0;
     }
-    p {
-        font-size: 1.4rem;
-        padding-bottom: 1rem;
-    }
 
     ul {
         padding-left: 1em;
         li {
-            font-size: 1.4rem;
             padding-bottom: 1rem;
             line-height: 1.5;
             &:last-of-type{
