@@ -101,14 +101,13 @@ img {
   }
 }
 .top h2 {
-  width: 90%;
-  margin: auto;
   padding: 5rem 0;
 }
 @media (min-width: 960px) {
   .top h2 {
     max-width: 940px;
     padding: 140px 0;
+    margin: auto;
   }
 }
 .top h3 {

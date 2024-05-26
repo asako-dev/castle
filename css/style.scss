@@ -121,12 +121,11 @@ img {
     }
 
     h2 {
-        width: 90%;
-        margin: auto;
         padding: 5rem 0;
         @include pc{
             max-width: 940px;
             padding: 140px 0;
+            margin: auto;
         }
     }
 
