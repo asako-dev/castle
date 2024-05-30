@@ -166,7 +166,7 @@ img {
 @media (min-width: 960px) {
   .prize__container {
     width: 48%;
-    padding: 30px 60px;
+    padding: 60px 30px;
   }
 }
 .prize__container h3 {
@@ -288,6 +288,12 @@ img {
 .prize__attention {
   font-size: 1.2rem;
   text-align: center;
+}
+.prize__attention:first-of-type {
+  padding-bottom: 1rem;
+}
+.prize__attention a {
+  color: #0071B1;
 }
 .prize__center {
   display: flex;
@@ -500,7 +506,6 @@ img {
 @media (min-width: 960px) {
   .list dl {
     display: flex;
-    padding-left: 250px;
   }
 }
 .list dt {
@@ -511,6 +516,18 @@ img {
   line-height: 1.5;
   padding-bottom: 2rem;
   padding-left: 0.5em;
+}
+
+@media (min-width: 960px) {
+  .list_group {
+    text-align: center;
+    display: block;
+  }
+}
+@media (min-width: 960px) {
+  .list_group__inner {
+    display: inline-block;
+  }
 }
 
 .result {
@@ -562,6 +579,10 @@ img {
   .details {
     padding: 130px 0 0;
   }
+}
+.details p {
+  padding-bottom: 1rem;
+  line-height: 2;
 }
 .details ul {
   padding-left: 1em;
