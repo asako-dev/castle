@@ -258,12 +258,12 @@ img {
     &__container02{
         background: #fff;
         border-radius: 1rem;
-        padding: 3rem 0;
+        padding: 3rem 1rem;
         margin-bottom: 2rem;
         @include pc{
-            width: 520px;
+            width: 600px;
             margin: 0 auto 50px;
-            padding: 30px 0;
+            padding: 30px;
         }
     }
     &__reword{
@@ -291,7 +291,9 @@ img {
     }
     &__attention{
         font-size: 1.2rem;
-        text-align: center;
+        line-height: 1.5;
+        padding-left:1em;
+	    text-indent:-1.2em;
         &:first-of-type{
             padding-bottom: 1rem;
         }
