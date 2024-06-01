@@ -79,14 +79,14 @@ img {
 }
 
 .top {
-  background-image: url(../images/bg_sp.png);
+  background-image: url(../images/bg_sp.webp);
   background-position: center center;
   background-size: cover;
   position: relative;
 }
 @media (min-width: 960px) {
   .top {
-    background-image: url(../images/bg_pc.png);
+    background-image: url(../images/bg_pc.webp);
   }
 }
 .top h1 {

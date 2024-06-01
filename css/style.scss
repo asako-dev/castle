@@ -1,10 +1,8 @@
 @charset "UTF-8";
 // 変数ここから
-$light_green: #BEDCDA;
 $red: #C9145A;
 $blue: #0071B1;
 $green: #77846c;
-
 $main-color: #534741;
 $bg-color: #f0f2e7;
 
@@ -103,12 +101,12 @@ img {
 
 
 .top {
-    background-image: url(../images/bg_sp.png);
+    background-image: url(../images/bg_sp.webp);
     background-position: center center;
     background-size: cover;
     position: relative;
     @include pc{
-    background-image: url(../images/bg_pc.png);
+    background-image: url(../images/bg_pc.webp);
     }
     h1{
         position: absolute;
