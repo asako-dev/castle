@@ -256,7 +256,7 @@ img {
     &__container02{
         background: #fff;
         border-radius: 1rem;
-        padding: 3rem 1rem;
+        padding: 3rem 2rem;
         margin-bottom: 2rem;
         @include pc{
             width: 600px;
@@ -292,6 +292,10 @@ img {
         line-height: 1.5;
         padding-left:1em;
 	    text-indent:-1.2em;
+        @include pc{
+            margin-left: 90px;
+            font-size: 16px;
+        }
         &:first-of-type{
             padding-bottom: 1rem;
         }
